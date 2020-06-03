@@ -5,7 +5,9 @@ This is a Readme for the project.
 - To select the test (LoginTest, SearchWatchlistRateTest, TopMoviesTest), simply write the test class file name in the Runner Class
   - Ex. (To run LoginTest): 
   
+  
   public class Runner {
+  
     public static void main(String[] args) throws IOException {
       TestExecutor executor = new TestExecutor(
               LoginTest.class
