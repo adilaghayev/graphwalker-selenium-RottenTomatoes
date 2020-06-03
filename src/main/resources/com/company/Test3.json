@@ -1,0 +1,147 @@
+{
+  "models": [
+    {
+      "name": "Test3",
+      "id": "f8fc55c0-a4f9-11ea-b640-f76b536e6878",
+      "generator": "random(edge_coverage(100))",
+      "actions": [],
+      "vertices": [
+        {
+          "id": "11fa5860-a4fa-11ea-b640-f76b536e6878",
+          "name": "Start",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": -27.931818181818183
+          }
+        },
+        {
+          "id": "4f109ed0-a4fa-11ea-b640-f76b536e6878",
+          "name": "v_HomePage",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": 157
+          }
+        },
+        {
+          "id": "5b9a4e80-a4fa-11ea-b640-f76b536e6878",
+          "name": "v_HomePageLoggedIn",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": 290.53030303030306
+          }
+        },
+        {
+          "id": "733cb8c0-a4fa-11ea-b640-f76b536e6878",
+          "name": "v_TopMovies",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": -114.10353535353555,
+            "y": 437.469696969697
+          }
+        },
+        {
+          "id": "2039eecf-a0af-414d-84d2-c160e949ad6c",
+          "name": "v_MovieDetail",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 107.48814972782803,
+            "y": 706.7294157332307
+          }
+        },
+        {
+          "id": "3a2baf12-0519-49e7-bdd8-d1b1cb2613c1",
+          "name": "v_TopMoviesGenre",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": -113.01690077722294,
+            "y": 606.9061834099982
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "90557f17-78d9-45b9-b656-57b9cf7625d5",
+          "name": "e_BackToHomePage",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "2039eecf-a0af-414d-84d2-c160e949ad6c",
+          "targetVertexId": "5b9a4e80-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "5bf7a960-a4fd-11ea-b640-f76b536e6878",
+          "name": "e_StartBrowsing",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "11fa5860-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "4f109ed0-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "a0db1e50-a4fc-11ea-b640-f76b536e6878",
+          "name": "e_GoToTopMovies",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "5b9a4e80-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "733cb8c0-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "a02c40b0-a4fc-11ea-b640-f76b536e6878",
+          "name": "e_LogIn",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "4f109ed0-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "5b9a4e80-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "07962161-9893-4fa3-a995-ca823c231e41",
+          "name": "e_ChangeGenre",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "3a2baf12-0519-49e7-bdd8-d1b1cb2613c1",
+          "targetVertexId": "3a2baf12-0519-49e7-bdd8-d1b1cb2613c1"
+        },
+        {
+          "id": "d7e8abc8-3be5-42e2-b13f-b26d558be301",
+          "name": "e_ChooseMovie",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "3a2baf12-0519-49e7-bdd8-d1b1cb2613c1",
+          "targetVertexId": "2039eecf-a0af-414d-84d2-c160e949ad6c"
+        },
+        {
+          "id": "0ffba864-fabb-4524-a2f4-02a4046099fa",
+          "name": "e_ChooseGenre",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "733cb8c0-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "3a2baf12-0519-49e7-bdd8-d1b1cb2613c1"
+        },
+        {
+          "id": "e96cf241-44cc-42d0-b53d-25afd25eaa65",
+          "name": "e_BackToGenre",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "2039eecf-a0af-414d-84d2-c160e949ad6c",
+          "targetVertexId": "3a2baf12-0519-49e7-bdd8-d1b1cb2613c1"
+        }
+      ],
+      "startElementId": "11fa5860-a4fa-11ea-b640-f76b536e6878"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "models": [
+    {
+      "name": "Login",
+      "id": "0edee476-03bf-44d1-aaa1-2b01a49e9ac7",
+      "generator": "random(edge_coverage(100))",
+      "actions": [],
+      "vertices": [
+        {
+          "id": "790ab813-a1dd-4692-8586-78661ea51286",
+          "name": "Start",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": -54.07812500000001,
+            "y": 1.4687499999999154
+          }
+        },
+        {
+          "id": "667c7b91-53b3-4688-bcf4-28d6bb50b8b1",
+          "name": "v_HomePageLoggedOut",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": -50.0781250000001,
+            "y": 182.46875
+          }
+        },
+        {
+          "id": "3680e167-8aeb-4278-93e2-2d2403d47ef5",
+          "name": "v_LoginPage",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": -54.0781250000001,
+            "y": 337.46874999999994
+          }
+        },
+        {
+          "id": "af2c7e1e-e12e-4fae-a705-92d086a18b0c",
+          "name": "v_ProfilePage",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 600.921875,
+            "y": 180.46875
+          }
+        },
+        {
+          "id": "bd9d27b2-1959-469b-be3c-e509c5b1013e",
+          "name": "v_AccountSettings",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 607.921875,
+            "y": 383.46875
+          }
+        },
+        {
+          "id": "13d3fb6a-5ec0-404b-8a7d-a37e9eaf2766",
+          "name": "v_PersonalInformation",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 610.921875,
+            "y": 551.46875
+          }
+        },
+        {
+          "id": "e18879dd-5f6a-40f8-a962-a84cdfaf20f4",
+          "name": "v_CountrySelector",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 218.92187499999997,
+            "y": 550.46875
+          }
+        },
+        {
+          "id": "c2e141a3-24c2-4045-9917-cbc724501444",
+          "name": "v_ChangeSuccess",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 424.92187499999994,
+            "y": 686.46875
+          }
+        },
+        {
+          "id": "ea3673b0-a4e3-11ea-84d3-6f8b7cd86da1",
+          "name": "v_HomePageLoggedin",
+          "properties": {
+            "x": 369,
+            "y": 181
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "b7a9069c-c534-4e93-b8ad-d415b3f11d6f",
+          "name": "e_StartBrowsing",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "790ab813-a1dd-4692-8586-78661ea51286",
+          "targetVertexId": "667c7b91-53b3-4688-bcf4-28d6bb50b8b1"
+        },
+        {
+          "id": "621afb9b-11fb-445a-8e37-a561c36d1288",
+          "name": "e_Login",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "667c7b91-53b3-4688-bcf4-28d6bb50b8b1",
+          "targetVertexId": "3680e167-8aeb-4278-93e2-2d2403d47ef5"
+        },
+        {
+          "id": "a50f303b-eb16-4b48-9266-1ef3c8a31ed5",
+          "name": "e_CredentialsInvalid",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "3680e167-8aeb-4278-93e2-2d2403d47ef5",
+          "targetVertexId": "3680e167-8aeb-4278-93e2-2d2403d47ef5"
+        },
+        {
+          "id": "b1e3cec5-6f1e-4086-bde0-6f3cc6a42d5b",
+          "name": "e_ManageAccount",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "af2c7e1e-e12e-4fae-a705-92d086a18b0c",
+          "targetVertexId": "bd9d27b2-1959-469b-be3c-e509c5b1013e"
+        },
+        {
+          "id": "7beeacab-74f4-4196-9522-e23442746795",
+          "name": "e_EditPerInfo",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "bd9d27b2-1959-469b-be3c-e509c5b1013e",
+          "targetVertexId": "13d3fb6a-5ec0-404b-8a7d-a37e9eaf2766"
+        },
+        {
+          "id": "4977a7bb-4c38-4662-b4d5-86846710a25b",
+          "name": "e_SelectCountry",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "13d3fb6a-5ec0-404b-8a7d-a37e9eaf2766",
+          "targetVertexId": "e18879dd-5f6a-40f8-a962-a84cdfaf20f4"
+        },
+        {
+          "id": "1ba23060-323a-431c-8b47-e370066768ac",
+          "name": "e_SubmitForm",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "e18879dd-5f6a-40f8-a962-a84cdfaf20f4",
+          "targetVertexId": "c2e141a3-24c2-4045-9917-cbc724501444"
+        },
+        {
+          "id": "2cdbd808-5f11-4718-b653-6fc648a5e86c",
+          "name": "e_SuccessTrue",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "c2e141a3-24c2-4045-9917-cbc724501444",
+          "targetVertexId": "13d3fb6a-5ec0-404b-8a7d-a37e9eaf2766"
+        },
+        {
+          "id": "1267e940-a4e4-11ea-84d3-6f8b7cd86da1",
+          "name": "e_GoToProfile",
+          "sourceVertexId": "ea3673b0-a4e3-11ea-84d3-6f8b7cd86da1",
+          "targetVertexId": "af2c7e1e-e12e-4fae-a705-92d086a18b0c"
+        },
+        {
+          "id": "52080ee0-a4e4-11ea-84d3-6f8b7cd86da1",
+          "name": "e_GoToHomePage",
+          "sourceVertexId": "13d3fb6a-5ec0-404b-8a7d-a37e9eaf2766",
+          "targetVertexId": "ea3673b0-a4e3-11ea-84d3-6f8b7cd86da1"
+        },
+        {
+          "id": "664f8e50-a4e4-11ea-84d3-6f8b7cd86da1",
+          "name": "e_CredentialsValid",
+          "sourceVertexId": "3680e167-8aeb-4278-93e2-2d2403d47ef5",
+          "targetVertexId": "ea3673b0-a4e3-11ea-84d3-6f8b7cd86da1"
+        },
+        {
+          "id": "3712f630-a4ef-11ea-84d3-6f8b7cd86da1",
+          "name": "e_LogOut",
+          "sourceVertexId": "ea3673b0-a4e3-11ea-84d3-6f8b7cd86da1",
+          "targetVertexId": "667c7b91-53b3-4688-bcf4-28d6bb50b8b1"
+        }
+      ],
+      "startElementId": "790ab813-a1dd-4692-8586-78661ea51286"
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": null
+}

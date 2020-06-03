@@ -1,0 +1,119 @@
+{
+  "models": [
+    {
+      "name": "Test2",
+      "id": "f8fc55c0-a4f9-11ea-b640-f76b536e6878",
+      "generator": "random(edge_coverage(100))",
+      "actions": [],
+      "vertices": [
+        {
+          "id": "11fa5860-a4fa-11ea-b640-f76b536e6878",
+          "name": "Start",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": -27.931818181818183
+          }
+        },
+        {
+          "id": "4f109ed0-a4fa-11ea-b640-f76b536e6878",
+          "name": "v_HomePage",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": 157
+          }
+        },
+        {
+          "id": "5b9a4e80-a4fa-11ea-b640-f76b536e6878",
+          "name": "v_HomePageLoggedIn",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": 295
+          }
+        },
+        {
+          "id": "733cb8c0-a4fa-11ea-b640-f76b536e6878",
+          "name": "v_FilmDetail",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": -9.065656565656571,
+            "y": 430.7651515151515
+          }
+        },
+        {
+          "id": "35ca84c0-a4fc-11ea-b640-f76b536e6878",
+          "name": "v_ProfilePage",
+          "actions": [],
+          "requirements": [],
+          "properties": {
+            "x": 98,
+            "y": 571
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "69490e56-ebaa-4da1-90ef-22a2c45033eb",
+          "name": "e_BackToHomePage",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "35ca84c0-a4fc-11ea-b640-f76b536e6878",
+          "targetVertexId": "5b9a4e80-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "5bf7a960-a4fd-11ea-b640-f76b536e6878",
+          "name": "e_StartBrowsing",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "11fa5860-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "4f109ed0-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "b295ebc4-fed1-43ee-a3c3-a5cfe42c1011",
+          "name": "e_SearchAgain",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "733cb8c0-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "733cb8c0-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "a02c40b0-a4fc-11ea-b640-f76b536e6878",
+          "name": "e_LogIn",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "4f109ed0-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "5b9a4e80-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "a0db1e50-a4fc-11ea-b640-f76b536e6878",
+          "name": "e_Search",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "5b9a4e80-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "733cb8c0-a4fa-11ea-b640-f76b536e6878"
+        },
+        {
+          "id": "2d30d45d-0fc1-4e1e-b3a7-11840a243911",
+          "name": "e_GoToProfile",
+          "actions": [],
+          "requirements": [],
+          "properties": [],
+          "sourceVertexId": "733cb8c0-a4fa-11ea-b640-f76b536e6878",
+          "targetVertexId": "35ca84c0-a4fc-11ea-b640-f76b536e6878"
+        }
+      ],
+      "startElementId": "11fa5860-a4fa-11ea-b640-f76b536e6878"
+    }
+  ]
+}
