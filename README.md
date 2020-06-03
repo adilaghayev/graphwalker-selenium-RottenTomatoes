@@ -6,9 +6,11 @@ This is a Readme for the project.
   - Ex. (To run LoginTest): 
   
   public class Runner {
-  
+    
     public static void main(String[] args) throws IOException {
+    
       TestExecutor executor = new TestExecutor(
+      
               LoginTest.class
             
 - Helper class is an accessory class that contains getWaiter and getInstance methods, which are modeified getDriver methods, for ease of use.         
