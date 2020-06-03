@@ -10,5 +10,6 @@ public class Runner {
 
     TestExecutor executor = new TestExecutor(
             LoginTest.class
--Helper class is an accessory class that contains getWaiter and getInstance methods, which are modeified getDriver methods, for ease of use.         
--Navigate to https://github.com/adilaghayev/graphwalker-selenium-RottenTomatoes/tree/master/src/main/resources/com/company to see the Graphwalker json files.
+- Helper class is an accessory class that contains getWaiter and getInstance methods, which are modeified getDriver methods, for ease of use.         
+- Navigate to https://github.com/adilaghayev/graphwalker-selenium-RottenTomatoes/tree/master/src/main/resources/com/company to see the Graphwalker json files.
+- The project should work after you compile it in Maven environment.
